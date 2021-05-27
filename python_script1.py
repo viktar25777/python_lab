@@ -1,0 +1,9 @@
+import itertools
+from itertools import count
+for i in count(1):
+    print(i, end = ' ')
+    if i > 10:
+        print()
+        break
+
+
